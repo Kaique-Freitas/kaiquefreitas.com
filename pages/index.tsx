@@ -7,6 +7,7 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <Head>
         <title>Kaique Freitas</title>
+        <link rel="icon" sizes="32x32" href="favicon.ico" />
         <meta
           name="description"
           content="Kaique Freitas - Desenvolvedor Full-Stack"
