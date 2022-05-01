@@ -27,7 +27,7 @@ const Home: NextPage = () => {
         <p className={styles.description}>Desenvolvedor Full-Stack</p>
 
         <div className={styles.grid}>
-          <a href="/habilidades" className={styles.card}>
+          <a href="/" className={styles.card}>
             <h2>Habilidades (em breve) &rarr;</h2>
           </a>
 
