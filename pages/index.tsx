@@ -28,11 +28,11 @@ const Home: NextPage = () => {
 
         <div className={styles.grid}>
           <a href="/habilidades" className={styles.card}>
-            <h2>Habilidades <span>(em breve)<span/> &rarr;</h2>
+            <h2>Habilidades <span>(em breve)</span> &rarr;</h2>
           </a>
 
           <a href="https://api.whatsapp.com/send?phone=5581999184774" className={styles.card}>
-            <h2>Contato <span>(em breve)<span/> &rarr;</h2>
+            <h2>Contato <span>(em breve)</span> &rarr;</h2>
           </a>
         </div>
       </main>
