@@ -1,15 +1,19 @@
-import type { NextPage } from 'next'
 import Link from 'next/link'
-import { Footer } from '../components/Footer'
-import { HeadComponent as Head } from '../components/Head'
+import type { NextPage } from 'next'
+
+import { Main } from '../components/Main'
 import { Header } from '../components/Header'
+import { Footer } from '../components/Footer'
+import { Container } from '../components/Container'
+import { HeadComponent as Head } from '../components/Head'
+
 import styles from '../../styles/Home.module.css'
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <Container>
       <Head title='Kaique Freitas' description='Kaique Freitas - Desenvolvedor Full-Stack' />
-      <main className={styles.main}>
+      <Main>
         <Header title='Kaique Freitas' />
         <p className={styles.description}>Desenvolvedor Full-Stack</p>
 
@@ -26,10 +30,10 @@ const Home: NextPage = () => {
             </a>
           </Link>
         </div>
-      </main>
+      </Main>
 
       <Footer />
-    </div>
+    </Container>
   )
 }
 

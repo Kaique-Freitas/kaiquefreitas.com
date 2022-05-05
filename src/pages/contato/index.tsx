@@ -1,17 +1,18 @@
-import { Footer } from '../../components/Footer'
-import { HeadComponent as Head } from '../../components/Head'
+import { Main } from '../../components/Main'
 import { Header } from '../../components/Header'
+import { Footer } from '../../components/Footer'
+import { Container } from '../../components/Container'
+import { HeadComponent as Head } from '../../components/Head'
 
-import styles from '../../../styles/Home.module.css'
 
 export default function Contact() {
   return (
-    <div className={styles.container}>
+    <Container>
       <Head title='Kaique Freitas - Contato' description='Página de contato - Kaique Freitas' />
-      <main className={styles.main}>
+      <Main>
         <Header title='Contato' />
-      </main>
+      </Main>
       <Footer />
-    </div>
+    </Container>
   )
 }
