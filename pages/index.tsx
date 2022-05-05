@@ -1,52 +1,36 @@
-import type { NextPage } from 'next';
-import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+import type { NextPage } from 'next'
+import Link from 'next/link'
+import { Footer } from '../components/Footer'
+import { HeadComponent as Head } from '../components/Head'
+import { Header } from '../components/Header'
+import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Kaique Freitas</title>
-        <link rel="icon" sizes="32x32" href="favicon.ico" />
-        <meta
-          name="description"
-          content="Kaique Freitas - Desenvolvedor Full-Stack"
-        />
-        <meta
-          name="keywords"
-          content="Kaique, Kaique Freitas, Kaique Freitas Dev"
-        />
-        <meta name="author" content="Kaique Freitas" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Head title='Kaique Freitas' description='Kaique Freitas - Desenvolvedor Full-Stack' />
+      <Header title='Kaique Freitas' />
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>Kaique Freitas</h1>
+      <p className={styles.description}>Desenvolvedor Full-Stack</p>
 
-        <p className={styles.description}>Desenvolvedor Full-Stack</p>
-
-        <div className={styles.grid}>
-          <a href="" className={styles.card}>
+      <div className={styles.grid}>
+        <Link href='/habilidades'>
+          <a className={styles.card}>
             <h2>Habilidades (em breve) &rarr;</h2>
           </a>
+        </Link>
 
-          <a
-            href="https://api.whatsapp.com/send?phone=5581999184774"
-            className={styles.card}
-          >
+        <Link href='/contato'>
+          <a className={styles.card}>
             <h2>Contato (em breve) &rarr;</h2>
           </a>
-        </div>
-      </main>
+        </Link>
+      </div>
+      {/* </main> */}
 
-      <footer className={styles.footer}>
-        <a href="https://kaiquefreitas.com" rel="noopener noreferrer">
-          {new Date().getFullYear()} @ Kaique Freitas
-        </a>
-      </footer>
+      <Footer />
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
