@@ -9,24 +9,24 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head title='Kaique Freitas' description='Kaique Freitas - Desenvolvedor Full-Stack' />
-      <Header title='Kaique Freitas' />
+      <main className={styles.main}>
+        <Header title='Kaique Freitas' />
+        <p className={styles.description}>Desenvolvedor Full-Stack</p>
 
-      <p className={styles.description}>Desenvolvedor Full-Stack</p>
+        <div className={styles.grid}>
+          <Link href='/habilidades'>
+            <a className={styles.card}>
+              <h2>Habilidades (em breve) &rarr;</h2>
+            </a>
+          </Link>
 
-      <div className={styles.grid}>
-        <Link href='/habilidades'>
-          <a className={styles.card}>
-            <h2>Habilidades (em breve) &rarr;</h2>
-          </a>
-        </Link>
-
-        <Link href='/contato'>
-          <a className={styles.card}>
-            <h2>Contato (em breve) &rarr;</h2>
-          </a>
-        </Link>
-      </div>
-      {/* </main> */}
+          <Link href='/contato'>
+            <a className={styles.card}>
+              <h2>Contato (em breve) &rarr;</h2>
+            </a>
+          </Link>
+        </div>
+      </main>
 
       <Footer />
     </div>
