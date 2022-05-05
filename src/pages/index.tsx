@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { Footer } from '../components/Footer'
 import { HeadComponent as Head } from '../components/Head'
 import { Header } from '../components/Header'
-import styles from '../styles/Home.module.css'
+import styles from '../../styles/Home.module.css'
 
 const Home: NextPage = () => {
   return (
