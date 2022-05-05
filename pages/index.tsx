@@ -27,11 +27,14 @@ const Home: NextPage = () => {
         <p className={styles.description}>Desenvolvedor Full-Stack</p>
 
         <div className={styles.grid}>
-          <a href="/" className={styles.card}>
+          <a href="" className={styles.card}>
             <h2>Habilidades (em breve) &rarr;</h2>
           </a>
 
-          <a href="https://api.whatsapp.com/send?phone=5581999184774" className={styles.card}>
+          <a
+            href="https://api.whatsapp.com/send?phone=5581999184774"
+            className={styles.card}
+          >
             <h2>Contato (em breve) &rarr;</h2>
           </a>
         </div>
