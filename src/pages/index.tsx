@@ -1,10 +1,10 @@
-import Link from 'next/link'
 import type { NextPage } from 'next'
 
 import { Main } from '../components/Main'
 import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
 import { HeadComponent as Head } from '../components/Head'
+import { CardLink } from '../components/CardLink'
 
 const Home: NextPage = () => {
   return (
@@ -15,21 +15,13 @@ const Home: NextPage = () => {
         <p className='my-2 text-xl phone:text-2xl lg:text-3xl'>Desenvolvedor Full-Stack</p>
 
         <div className='flex items-center justify-center flex-wrap max-w-[800px] mt-4 phone:mt-12 lg:mt-16'>
-          <Link href='/habilidades'>
-            <a className='m-4 p-6 w-[230px] text-left rounded-lg border-2 hover:text-blue-300 hover:border-blue-300 transition duration-100'>
-              <h2 className='phone:text-2xl font-bold'>Habilidades &rarr;</h2>
-            </a>
-          </Link>
+          <CardLink title='Habilidades' href='/habilidades' />
 
-          <Link href='/contato'>
-            <a className='m-4 p-6 w-[230px] text-left rounded-lg border-2 hover:text-blue-300 hover:border-blue-300 transition duration-100'>
-              <h2 className='phone:text-2xl font-bold'>Contato &rarr;</h2>
-            </a>
-          </Link>
+          <CardLink title='Contato' href='/contato' />
         </div>
       </Main>
 
-      <Footer />
+      <Footer absolute />
     </>
   )
 }
