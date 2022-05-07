@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import type { NextPage } from 'next'
 
 import { Main } from '../components/Main'
