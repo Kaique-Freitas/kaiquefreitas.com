@@ -4,36 +4,33 @@ import type { NextPage } from 'next'
 import { Main } from '../components/Main'
 import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
-import { Container } from '../components/Container'
 import { HeadComponent as Head } from '../components/Head'
-
-import styles from '../../styles/Home.module.css'
 
 const Home: NextPage = () => {
   return (
-    <Container>
+    <>
       <Head title='Kaique Freitas' description='Kaique Freitas - Desenvolvedor Full-Stack' />
       <Main>
         <Header title='Kaique Freitas' />
-        <p className={styles.description}>Desenvolvedor Full-Stack</p>
+        <p className='my-2 text-xl phone:text-2xl lg:text-3xl'>Desenvolvedor Full-Stack</p>
 
-        <div className={styles.grid}>
+        <div className='flex items-center justify-center flex-wrap max-w-[800px] mt-4 phone:mt-12 lg:mt-16'>
           <Link href='/habilidades'>
-            <a className={styles.card}>
-              <h2>Habilidades (em breve) &rarr;</h2>
+            <a className='m-4 p-6 w-[230px] text-left rounded-lg border-2 hover:text-blue-300 hover:border-blue-300 transition duration-100'>
+              <h2 className='phone:text-2xl font-bold'>Habilidades &rarr;</h2>
             </a>
           </Link>
 
           <Link href='/contato'>
-            <a className={styles.card}>
-              <h2>Contato (em breve) &rarr;</h2>
+            <a className='m-4 p-6 w-[230px] text-left rounded-lg border-2 hover:text-blue-300 hover:border-blue-300 transition duration-100'>
+              <h2 className='phone:text-2xl font-bold'>Contato &rarr;</h2>
             </a>
           </Link>
         </div>
       </Main>
 
       <Footer />
-    </Container>
+    </>
   )
 }
 
