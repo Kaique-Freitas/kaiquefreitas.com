@@ -11,7 +11,7 @@ export default function Contact() {
       <Main>
         <Header title='Contato' />
       </Main>
-      <Footer />
+      <Footer absolute/>
     </>
   )
 }
