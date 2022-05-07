@@ -15,13 +15,13 @@ const Home: NextPage = () => {
         <p className='my-2 text-xl phone:text-2xl lg:text-3xl'>Desenvolvedor Full-Stack</p>
 
         <div className='flex items-center justify-center flex-wrap max-w-[800px] mt-4 phone:mt-12 lg:mt-16'>
-          <CardLink title='Habilidades' href='habilidades' />
+          <CardLink title='Habilidades' href='/habilidades' />
 
-          <CardLink title='Contato' href='contato' />
+          <CardLink title='Contato' href='/contato' />
         </div>
       </Main>
 
-      <Footer />
+      <Footer absolute />
     </>
   )
 }
