@@ -31,7 +31,7 @@ export default function Skills() {
               <li>Rest API's</li>
               <li>AdonisJS</li>
               <li>Express</li>
-              <li>POO</li>a
+              <li>POO</li>
               <li>Princípios Solid</li>
             </ul>
           </div>
