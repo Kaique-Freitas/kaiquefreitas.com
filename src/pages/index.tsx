@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         <div className='flex items-center justify-center flex-wrap max-w-[800px] mt-4 phone:mt-12 lg:mt-16'>
           <CardLink title='Habilidades' href='/habilidades' />
 
-          <CardLink title='Contato' href='/contato' />
+          <CardLink title='Contato (em breve)' href='/' />
         </div>
       </Main>
 
