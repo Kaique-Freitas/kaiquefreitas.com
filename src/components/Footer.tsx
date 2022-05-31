@@ -7,7 +7,7 @@ export function Footer({ absolute, xlAbsolute }: FooterProps) {
   return (
     <footer
       className={`w-full py-3 phone:py-6 ${
-        absolute ? 'absolute' : xlAbsolute ? 'xl:absolute' : 'mt-20'
+        absolute ? 'absolute' : xlAbsolute ? 'mt-10 xl:mt-0 xl:absolute' : 'mt-20'
       } bottom-0 border-t-[1px] flex justify-center items-center`}
     >
       <a href='https://kaiquefreitas.com' rel='noopener noreferrer' className='phone:text-lg'>
