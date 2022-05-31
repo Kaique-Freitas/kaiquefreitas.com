@@ -9,10 +9,10 @@ export default function Skills() {
       <Head title='Habilidades - Kaique Freitas' description='Página com principais habilidades' />
       <Main>
         <Header title='Habilidades' />
-        <div className='flex items-center justify-center flex-wrap max-w-[800px] mt-4 phone:mt-6 lg:mt-16'>
+        <div className='flex items-center justify-center flex-wrap max-w-[800px] mt-4 phone:mt-6'>
           <div className='m-4 p-6 w-[250px] md:w-[300px] text-left rounded-lg border-2'>
             <h2 className='phone:text-2xl font-semibold'>Front-end</h2>
-            <ul className='list-disc list-inside mt-5'>
+            <ul className='list-disc list-inside mt-5 md:text-xl'>
               <li>Typescript</li>
               <li>React</li>
               <li>NextJS</li>
@@ -25,7 +25,7 @@ export default function Skills() {
           </div>
           <div className='m-4 p-6 w-[250px] md:w-[300px] text-left rounded-lg border-2'>
             <h2 className='phone:text-2xl font-semibold'>Back-end</h2>
-            <ul className='list-disc list-inside mt-5'>
+            <ul className='list-disc list-inside mt-5 md:text-xl'>
               <li>Node</li>
               <li>MySQL</li>
               <li>Rest API's</li>
@@ -37,7 +37,7 @@ export default function Skills() {
           </div>
           <div className='m-4 p-6 w-[250px] md:w-[300px] text-left rounded-lg border-2'>
             <h2 className='phone:text-2xl font-semibold'>Outros</h2>
-            <ul className='list-disc list-inside mt-5'>
+            <ul className='list-disc list-inside mt-5 md:text-xl'>
               <li>Linux</li>
               <li>Docker</li>
               <li>CI / CD</li>
@@ -47,7 +47,7 @@ export default function Skills() {
           </div>
         </div>
       </Main>
-      <Footer mdAbsolute />
+      <Footer xlAbsolute />
     </>
   )
 }
