@@ -28,7 +28,11 @@ export default function Skills() {
             <ul className='list-disc list-inside mt-5 md:text-xl'>
               <li>Node</li>
               <li>MySQL</li>
+              <li>Rest API's</li>
               <li>AdonisJS</li>
+              <li>Express</li>
+              <li>POO</li>
+              <li>Princípios Solid</li>
             </ul>
           </div>
           <div className='m-4 p-6 w-[250px] md:w-[300px] text-left rounded-lg border-2'>
