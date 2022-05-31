@@ -9,7 +9,7 @@ export default function Skills() {
       <Head title='Habilidades - Kaique Freitas' description='Página com principais habilidades' />
       <Main>
         <Header title='Habilidades' />
-        <div className='flex items-center justify-center flex-wrap max-w-[800px] mt-4 phone:mt-6'>
+        <div className='flex items-center justify-center flex-wrap max-w-[800px] phone:mt-6 md:mt-2'>
           <div className='m-4 p-6 w-[250px] md:w-[300px] text-left rounded-lg border-2'>
             <h2 className='phone:text-2xl font-semibold'>Front-end</h2>
             <ul className='list-disc list-inside mt-5 md:text-xl'>
@@ -33,6 +33,7 @@ export default function Skills() {
               <li>Express</li>
               <li>POO</li>
               <li>Princípios Solid</li>
+              <li>Arquitetura MVC</li>
             </ul>
           </div>
           <div className='m-4 p-6 w-[250px] md:w-[300px] text-left rounded-lg border-2'>
