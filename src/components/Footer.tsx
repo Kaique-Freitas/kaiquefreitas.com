@@ -1,13 +1,13 @@
 interface FooterProps {
   absolute?: boolean
-  mdAbsolute?: boolean
+  xlAbsolute?: boolean
 }
 
-export function Footer({ absolute, mdAbsolute }: FooterProps) {
+export function Footer({ absolute, xlAbsolute }: FooterProps) {
   return (
     <footer
       className={`w-full py-3 phone:py-6 ${
-        absolute ? 'absolute' : mdAbsolute ? 'md:absolute mt-20' : 'mt-20'
+        absolute ? 'absolute' : xlAbsolute ? 'xl:absolute' : 'mt-20'
       } bottom-0 border-t-[1px] flex justify-center items-center`}
     >
       <a href='https://kaiquefreitas.com' rel='noopener noreferrer' className='phone:text-lg'>

@@ -47,7 +47,7 @@ export default function Skills() {
           </div>
         </div>
       </Main>
-      <Footer mdAbsolute />
+      <Footer xlAbsolute />
     </>
   )
 }
