@@ -35,7 +35,7 @@ export default function Skills() {
               <li>Princípios Solid</li>
             </ul>
           </div>
-          <div className='m-4 p-6 w-[250px] md:w-[300px] text-left rounded-lg border-2'>
+          <div className='m-4 p-6 w-[250px] md:w-[300px] mb-10 text-left rounded-lg border-2'>
             <h2 className='phone:text-2xl font-semibold'>Outros</h2>
             <ul className='list-disc list-inside mt-5 md:text-xl'>
               <li>Linux</li>
