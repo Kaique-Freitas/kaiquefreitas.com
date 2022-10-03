@@ -13,7 +13,7 @@ export function Footer({ absolute, xlAbsolute }: FooterProps) {
       <a href='https://kaiquefreitas.com' rel='noopener noreferrer' className='phone:text-lg'>
         {new Date().getFullYear()} @ Kaique Freitas
       </a>
-      <a target='_blank' href='https://linkedin.com/in/kaique-freitas' className='ml-5'>
+      <a target='_blank' href='https://linkedin.com/in/kaique-freitas' className='ml-5 hover:text-blue-300'>
         <svg xmlns='http://www.w3.org/2000/svg' width='34' height='34'>
           <title>LinkedIn</title>
           <g>
@@ -24,7 +24,7 @@ export function Footer({ absolute, xlAbsolute }: FooterProps) {
           </g>
         </svg>
       </a>
-      <a target='_blank' href='https://github.com/kaique-freitas' className='ml-3'>
+      <a target='_blank' href='https://github.com/kaique-freitas' className='ml-3 hover:text-blue-300'>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           fill='currentColor'
