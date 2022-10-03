@@ -10,6 +10,7 @@ export function HeadComponent({ title, description }: HeaderProps) {
     <Head>
       <title>{title}</title>
       <link rel='icon' sizes='32x32' href='favicon.ico' />
+      <link rel='shortcut icon' sizes='32x32' href='favicon.ico' />
       <meta name='description' content={description} />
       <meta name='keywords' content='Kaique, Kaique Freitas, Kaique Freitas Dev' />
       <meta name='author' content='Kaique Freitas' />
