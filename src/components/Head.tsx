@@ -11,8 +11,8 @@ export function HeadComponent({ title, description }: HeaderProps) {
   return (
     <Head>
       <title>{title}</title>
-      <link rel='icon' sizes='32x32' href={faviconPath} />
-      <link rel='shortcut icon' sizes='32x32' href={faviconPath} />
+      <link rel='icon' sizes='96x96' href={faviconPath} />
+      <link rel='shortcut icon' sizes='96x96' href={faviconPath} />
       <meta property='og:image' content={faviconPath}/>
       <meta name='description' content={description} />
       <meta name='keywords' content='Kaique, Kaique Freitas, Kaique Freitas Dev' />
