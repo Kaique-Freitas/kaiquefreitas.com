@@ -30,7 +30,7 @@ export default function Contact() {
             </svg>
           </a>
           <a
-            href='mailto:email@kaiquefreitas.com
+            href='mailto:email@kaiquefreitas.com'
             className='ml-3 hover:text-blue-300 w-[60px]'
           >
             <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 50 50' fill='currentColor'>
