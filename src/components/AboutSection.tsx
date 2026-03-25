@@ -1,7 +1,7 @@
 import { RevealOnScroll } from './RevealOnScroll'
 
 const stats = [
-  { value: '4 anos', label: 'De experiência' },
+  { value: 'Mais de 5 anos', label: 'De experiência' },
   { value: 'Pleno', label: 'Full-Stack' },
   { value: 'React.js', label: 'Especialista' },
   { value: 'Node.js', label: 'Back-end' }
