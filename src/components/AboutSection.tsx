@@ -24,7 +24,7 @@ export function AboutSection() {
           <RevealOnScroll variant='left' delay={200}>
             <div className='space-y-6'>
               <p className='text-gray-400 text-lg leading-relaxed'>
-                Desenvolvedor Full-Stack Pleno com 4 anos de experiência na criação
+                Desenvolvedor Full-Stack Pleno com mais de 5 anos de experiência na criação
                 de soluções escaláveis e eficientes. Já desenvolvi bots que integram
                 com IA, e-commerces, SaaS para construtoras e sistemas de cashback.
               </p>
