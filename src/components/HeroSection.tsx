@@ -21,7 +21,7 @@ export function HeroSection() {
           className='text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed opacity-0 animate-fade-in-up'
           style={{ animationDelay: '0.3s', animationFillMode: 'forwards' }}
         >
-          Especialista em Soluções Web escaláveis e eficientes. <br/> Pragmático • Orientado a Resultados • Focado no Cliente
+          Especialista em Soluções Web escaláveis e eficientes. Sou pragmático, orientado a resultados, focado na satisfação do cliente
         </p>
 
         <div
