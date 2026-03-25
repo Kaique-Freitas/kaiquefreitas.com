@@ -1,10 +1,10 @@
 import { RevealOnScroll } from './RevealOnScroll'
 
 const stats = [
-  { value: 'Full-Stack', label: 'Desenvolvedor' },
-  { value: 'React', label: 'Especialista' },
-  { value: 'Node.js', label: 'Back-end' },
-  { value: 'TypeScript', label: 'Linguagem Principal' }
+  { value: '4 anos', label: 'De experiência' },
+  { value: 'Pleno', label: 'Full-Stack' },
+  { value: 'React.js', label: 'Especialista' },
+  { value: 'Node.js', label: 'Back-end' }
 ]
 
 export function AboutSection() {
@@ -24,18 +24,17 @@ export function AboutSection() {
           <RevealOnScroll variant='left' delay={200}>
             <div className='space-y-6'>
               <p className='text-gray-400 text-lg leading-relaxed'>
-                Sou um desenvolvedor Full-Stack apaixonado por criar soluções digitais
-                que fazem a diferença. Com experiência em tecnologias modernas como
-                React, Next.js, Node.js e TypeScript, busco sempre entregar código limpo
-                e interfaces elegantes.
+                Desenvolvedor Full-Stack Pleno com 4 anos de experiência na criação
+                de soluções escaláveis e eficientes. Já desenvolvi bots que integram
+                com IA, e-commerces, SaaS para construtoras e sistemas de cashback.
               </p>
               <p className='text-gray-400 text-lg leading-relaxed'>
-                Minha abordagem combina design centrado no usuário com arquitetura
-                sólida de software, seguindo princípios SOLID e boas práticas de
-                desenvolvimento ágil.
+                Tenho expertise em React.js, Node.js, TypeScript, automação de processos
+                e integração de sistemas. Sou pragmático, pronto para ajudar e focado
+                na satisfação do cliente.
               </p>
               <div className='flex flex-wrap gap-3 pt-4'>
-                {['React', 'Next.js', 'TypeScript', 'Node.js', 'Docker', 'MySQL'].map((tech) => (
+                {['React.js', 'Node.js', 'TypeScript', 'Next.js', 'IA', 'Docker', 'MySQL', 'Automação'].map((tech) => (
                   <span
                     key={tech}
                     className='skill-tag px-4 py-2 text-sm font-mono text-primary-400 glass rounded-lg cursor-default'

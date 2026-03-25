@@ -8,7 +8,7 @@ export function HeroSection() {
       <div className='relative z-10 text-center px-6 max-w-4xl mx-auto'>
         <div className='animate-fade-in'>
           <p className='text-primary-400 font-mono text-sm md:text-base mb-4 tracking-wider'>
-            &lt;Desenvolvedor Full-Stack /&gt;
+            &lt;Desenvolvedor Full-Stack Pleno /&gt;
           </p>
         </div>
 
@@ -21,8 +21,9 @@ export function HeroSection() {
           className='text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed opacity-0 animate-fade-in-up'
           style={{ animationDelay: '0.3s', animationFillMode: 'forwards' }}
         >
-          Transformando ideias em experiências digitais com código limpo,
-          design moderno e tecnologias de ponta.
+          4 anos criando soluções escaláveis e eficientes — de bots com IA
+          e e-commerces a SaaS para construtoras e sistemas de cashback.
+          Pragmático, pronto para ajudar e focado na satisfação do cliente.
         </p>
 
         <div

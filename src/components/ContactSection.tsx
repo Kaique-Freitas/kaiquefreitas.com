@@ -70,7 +70,7 @@ export function ContactSection() {
             Vamos <span className='gradient-text'>conversar</span>?
           </h2>
           <p className='text-gray-400 text-lg max-w-xl mx-auto mb-16'>
-            Estou sempre aberto a novos projetos e oportunidades.
+            Precisa de um desenvolvedor pragmático e focado em resultados?
             Entre em contato por qualquer um dos canais abaixo.
           </p>
         </RevealOnScroll>
