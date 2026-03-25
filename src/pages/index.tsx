@@ -1,27 +1,30 @@
 import type { NextPage } from 'next'
-
-import { Main } from '../components/Main'
-import { Header } from '../components/Header'
-import { Footer } from '../components/Footer'
 import { HeadComponent as Head } from '../components/Head'
-import { CardLink } from '../components/CardLink'
+import { Navbar } from '../components/Navbar'
+import { HeroSection } from '../components/HeroSection'
+import { AboutSection } from '../components/AboutSection'
+import { SkillsSection } from '../components/SkillsSection'
+import { ContactSection } from '../components/ContactSection'
+import { FooterNew } from '../components/FooterNew'
 
 const Home: NextPage = () => {
   return (
     <>
-      <Head title='Kaique Freitas' description='Kaique Freitas - Desenvolvedor Full-Stack' />
-      <Main>
-        <Header title='Kaique Freitas' />
-        <p className='my-2 text-xl phone:text-2xl lg:text-3xl'>Desenvolvedor Full-Stack</p>
+      <Head
+        title='Kaique Freitas - Desenvolvedor Full-Stack'
+        description='Portfólio de Kaique Freitas - Desenvolvedor Full-Stack especializado em React, Next.js, Node.js e TypeScript.'
+      />
 
-        <div className='flex items-center justify-center flex-wrap max-w-[800px] mt-4 phone:mt-12 lg:mt-16'>
-          <CardLink title='Habilidades' href='/habilidades' />
+      <Navbar />
 
-          <CardLink title='Contato' href='/contato' />
-        </div>
-      </Main>
+      <main>
+        <HeroSection />
+        <AboutSection />
+        <SkillsSection />
+        <ContactSection />
+      </main>
 
-      <Footer absolute />
+      <FooterNew />
     </>
   )
 }
