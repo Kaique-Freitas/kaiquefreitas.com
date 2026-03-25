@@ -21,9 +21,7 @@ export function HeroSection() {
           className='text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed opacity-0 animate-fade-in-up'
           style={{ animationDelay: '0.3s', animationFillMode: 'forwards' }}
         >
-          4 anos criando soluções escaláveis e eficientes — de bots com IA
-          e e-commerces a SaaS para construtoras e sistemas de cashback.
-          Pragmático, pronto para ajudar e focado na satisfação do cliente.
+          Especialista em Soluções Web escaláveis e eficientes. Pragmático • Orientado a Resultados • Focado no Cliente
         </p>
 
         <div
